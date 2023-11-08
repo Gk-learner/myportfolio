@@ -1,0 +1,71 @@
+.container{
+    // width: 100%;
+    // background-color: none !important;
+    // opacity:0.6;
+    transform-style: preserve-3d;
+    will-change: contents;
+    z-index:1;
+    top: 180px;
+    // min-height: 566px;
+    animation: fadeIn 1s 1.7s backwards;
+    animation-delay: 0.1s
+}
+.text-zone{
+    // position: absolute;
+    transform: translateY(-50%);
+
+
+}
+h1{
+    margin-top:40px;
+    &::before {
+        // content: '<h1>';
+        opacity: 0.6
+    }
+    
+    &::after {
+        // content: '</h1>';
+        animation: fadeIn 1s 1.7s backwards;
+        opacity: 0.6
+
+    }
+    .text-animate{
+        display: inline-block;
+        opacity: 0;
+        animation: bounceIn 1s 1s;
+        animation-fill-mode: forwards;
+        min-width: 10px;
+        // color: yellow
+    }
+    .text-animate-hover{
+        animation-fill-mode: both;
+        display: inline-block;
+        color: yellow;
+        min-width: 10px;
+
+        &:hover{
+            animation: rubberBand 1s;
+            animation: moveToLeft 5s linear infinite;
+          animation-delay: 1000ms;
+        //   color: red;
+        }
+    }
+    @for $i from 1 through 35 {
+        .text-animate._#{$i} {
+            animation-delay: #{$i / 10}s;
+        }
+     }
+    
+}
+
+  .card1 a span{
+    animation: rotate 1s linear both;
+    animation-delay: 0.1s;
+  }
+
+  @media screen and (min-width:768px){
+
+    h1{
+        font-size:36px!important;
+    }
+  }

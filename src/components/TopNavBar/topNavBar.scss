@@ -1,0 +1,187 @@
+
+body{
+  background-color: rgb(35,34,82) !important;}
+ #desktopNav{
+    min-width: 97%;
+    // min-height: 1rem;
+    position: fixed;
+    // top:0;
+    // background-color: currentColor;
+  z-index: 1 !important;
+  // margin: 0 auto;
+  // overflow: hidden;
+  box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+  0px 2px 2px rgba(0,255,255,0.5), 
+  0px 4px 4px rgba(0,255,255,0.5),
+  0px 8px 6px rgba(0,255,255,0.5);
+  cursor: pointer;
+  border-bottom-left-radius: 70px 30px; 
+  border-bottom-right-radius: 70px 30px; 
+
+ }
+  .navLink{
+    color: rgb(199, 214, 235);
+    text-decoration: none;
+    
+      float: left;
+      padding: 6px;
+      font-size: 17px;
+      width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+      text-align: center; /* If you want the text to be centered */
+    
+  }
+  
+.navbar-brand{
+    text-shadow: rgb(217 237 241) 2px 2px 4px;
+    font-size: 32px !important;
+    background-color: none !important;
+  }
+  .navLink:hover{
+    color:white;
+  }
+  //  .navbar-nav{
+  //   float: right;
+  //  }
+//    .nav>li>a {
+//     padding: 17px 36px;
+// }
+// .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+//     height: 60px;
+// }
+// .btn-group-lg>.btn, .btn-lg {
+//     border-radius: 33px;
+// }
+
+/*Navigation*/
+
+#mobMenu {
+  z-index: 2;
+}
+
+#mobMenu-bar {
+  width: 25px;  
+  right: 0;
+  position: fixed;
+  margin: 15px 12px 20px 20px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  margin:1px 0;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.mobNav {
+  transition: 0.3s ease;
+  background-color: rgb(255,255,255,0.5);
+  min-width: 10rem;
+  right: 13px;
+  border-radius: 10px;;
+  position: fixed;
+  top:47px;
+}
+
+.mobNav .navLink{
+  padding: 10px 12px;
+  display: block;
+  background-color:  rgb(88, 114, 114);
+  // top:29;
+  width: 90%;
+  margin: 6px auto 3px;
+}
+.active{
+  color: #fff;
+}
+.mobNav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.mobNav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.mobNav li a:hover {
+  font-weight: bold;
+}
+
+.mobMenu-bg, #mobMenu {
+
+  position: absolute;
+}
+
+.mobMenu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #DC052D, #DC052D);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%,-30%);
+}
+
+@media screen and (max-width:756px ){
+  #desktopNav{
+    display: none;
+  }
+ 
+  .navLink{
+    // margin: 1vw 2vw;
+    color: rgb(199, 214, 235);
+    text-decoration: none;
+  }
+  .desktopNav{
+    background-color: currentColor;
+    z-index: 1;
+    position: fixed;
+  }
+  
+}
+// @media screen and (max-width:576px){
+//   .navLink{
+//     width: 91%;
+//     margin: 2px auto;
+//     background-color:rgb(88, 114, 114);
+//   }
+// }

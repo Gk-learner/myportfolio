@@ -1,13 +1,124 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: sans-serif !important;
+/* background-color:#000 !important; */
+  /* font-family: 'monospace', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+/* .navbar-brand{
+  text-shadow: rgb(217 237 241) 2px 2px 4px;
+  font-size: 32px !important;
+  margin: 0 27px;
+} */
+/* .navLink{
+  color: #b8c2cd !important;
+  cursor: pointer;
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+  margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+  border: var(--bs-nav-tabs-border-width) solid transparent;
+  border-top-left-radius: var(--bs-nav-tabs-border-radius);
+  border-top-right-radius: var(--bs-nav-tabs-border-radius);
+
+  margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+  border: var(--bs-nav-tabs-border-width) solid transparent;
+  border-top-left-radius: var(--bs-nav-tabs-border-radius);
+  border-top-right-radius: var(--bs-nav-tabs-border-radius);
+
+} */
+/* .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #b8c2cd !important;
+  background-color: #1c1d1b !important;
+  border-color: var(--bs-nav-tabs-link-active-border-color) !important;
+} */
+
+
+/* @keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+} */
+
+/* @import "compass/css3"; */
+
+/* .trapdoor {
+  -webkit-transform: translateZ(0px);
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -25px;
+  width: 200px;
+  height: 50px;
+  box-shadow: inset -7px 0px 12px -8px rgba(0,0,0,0.3), inset 7px 0px 12px -8px rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.3);
+  -webkit-transition: background 400ms ease-in-out;
+  -moz-transition: background 400ms ease-in-out;
+  -ms-transition: background 400ms ease-in-out;
+  -o-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
+  
+  &:hover {
+    background: #fff;
+    
+    .door {
+       box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.4);
+       -webkit-transform: scale(1.08);
+       -moz-transform: scale(1.08);
+       -ms-transform: scale(1.08);
+       -o-transform: scale(1.08);
+       transform: scale(1.08);
+    }
+   
+    .top {
+    top: -50%; 
+    }
+    
+    .bottom {
+    top: 100%; 
+    }
+  }
+  
+ .twitter-follow-button {
+   margin-left: -77px;
+   position: absolute !important;
+   margin-top: -14px;
+   left: 50%;
+   top: 50%;
+  }
 }
+
+.top {
+  top: 0%;
+  left: 0px;
+  
+  &:before {
+    top: 5px;
+  }
+}
+
+.bottom {
+  top: 50%;
+  left: 0px;
+  
+  &:before {
+    top: -20px;
+  }
+} */
+

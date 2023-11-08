@@ -1,0 +1,14 @@
+[
+    {
+      "title": "Project 1",
+      "description": "Description of Project 1",
+      "image": "./assets/paytmHP.png",
+      "link": "www.firstgames.in"
+    },
+    {
+      "title": "Project 2",
+      "description": "Description of Project 2",
+      "image": "project2.jpg",
+      "link": "https://example.com/project2"
+    }
+  ]

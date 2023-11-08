@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Gk-learner/myportfolio/static/css/main.81020d17.css",
+    "main.js": "/Gk-learner/myportfolio/static/js/main.1a4900e8.js",
+    "static/media/SozentechPdf.png": "/Gk-learner/myportfolio/static/media/SozentechPdf.1b73ab48695e3f741cc8.png",
+    "static/media/paytmHP.png": "/Gk-learner/myportfolio/static/media/paytmHP.31f54f764676693d0ebc.png",
+    "static/media/my-image2.jpg": "/Gk-learner/myportfolio/static/media/my-image2.d67c8a3eae1422bdfe00.jpg",
+    "static/media/LogoLinkedIn.jpg": "/Gk-learner/myportfolio/static/media/LogoLinkedIn.13308debdead809b71c9.jpg",
+    "static/media/phone-call-icon-16.png": "/Gk-learner/myportfolio/static/media/phone-call-icon-16.94f2cbcddc9c8d48c533.png",
+    "static/media/colorConverterApp.png": "/Gk-learner/myportfolio/static/media/colorConverterApp.249a01615c6886776bcb.png",
+    "index.html": "/Gk-learner/myportfolio/index.html",
+    "main.81020d17.css.map": "/Gk-learner/myportfolio/static/css/main.81020d17.css.map",
+    "main.1a4900e8.js.map": "/Gk-learner/myportfolio/static/js/main.1a4900e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81020d17.css",
+    "static/js/main.1a4900e8.js"
+  ]
+}

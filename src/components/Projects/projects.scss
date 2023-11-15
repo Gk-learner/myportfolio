@@ -3,9 +3,9 @@
   min-height: calc(100vh - 1rem)
 }
 .mobPro{
-  content: "";
-  clear: both;
-  display: table;
+  
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .work-card{
@@ -13,8 +13,8 @@
     background: rgb(49,44,98, 0.5) !important;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  // padding: 14px 80px 18px 36px;
-  cursor: pointer;
+      margin-left: 10px;
+      cursor: pointer;
   // width: 40vw;
   min-height: 15vw;
 

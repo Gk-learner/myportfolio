@@ -3,6 +3,7 @@ import "./projects.scss"
 import Image1 from "./assets/paytmHP.png"
 import Image2 from "./assets/SozentechPdf.png"
 import Image3 from './assets/colorConverterApp.png'
+import Image4 from './assets/vue.png'
 import { Image } from "react-bootstrap";
 
 // import Collapse from '@materia-ui/core/Collapse';
@@ -16,7 +17,7 @@ const [isOpened, setIsOpened] = useState(false)
 const project_1_link= "https:firstgames.in"
 const ColorConverter = 'https://gk-learner.github.io/color-converter/'
 const SozentechPdf = "https://firebasestorage.googleapis.com/v0/b/app-cost-estimator-2f21f.appspot.com/o/pdfs%2FEvJvSFBSRiepriJ.pdf?alt=media&token=959b81e2-615a-4af6-a0f0-d07afac5bd06"
-
+const Ravenous = "https://gk-learner.github.io/Vue3Ravenous/"
 useEffect(()=>{
   setTimeout(()=>{
     setIsOpened(true)
@@ -102,7 +103,22 @@ useEffect(()=>{
           </Card.Text></Card.Body></a>
              </Card>
 
-
+             <Card  className="work-card mt-5 text-center w-30">
+          <a href={Ravenous} target="blank">
+        <Card.Img variant="top" src={Image4} />
+        <Card.Body>
+          <Card.Title className="text-light"> Learning </Card.Title>
+          <Card.Text style={{color: "red"}}>
+          <div style={{visibility: "visible",
+                animationDuration: "1.4s",animationName: "slideInUp",width: "100%",
+                display: "flex", fontSize:"10px",
+                justifyContent: "space-between",flexDirection: "row", flexWrap:"wrap"}}>
+                <button>Vuex</button>
+                <button>Vue3</button>
+                <button>Javascript</button>
+            </div>
+          </Card.Text></Card.Body></a>
+             </Card>
         
         </Col>
         <Col sm={12} className="d-lg-none d-sm-none d-md-none d-xl-none justify-content-around mx-auto mt-3 d-flex" >
@@ -145,6 +161,41 @@ useEffect(()=>{
                 <button>jQuery</button>
                 <button>EmailJs</button>
                 <button>PDFMake</button>
+            </div>
+          </Card.Text></Card.Body>
+        </Card></a>     
+     </Col>
+
+     <Col sm={12} className="d-lg-none d-sm-none d-md-none d-xl-none justify-content-around mx-auto mt-3 d-flex" >
+      <a href={SozentechPdf} target="blank"><Card  className="work-card mt-5 text-center">
+              <Card.Img variant="top" src={Image3} />
+        <Card.Body>
+          <Card.Title className="text-light"> Learning </Card.Title>
+          <Card.Text style={{color: "red"}}>
+          <div style={{visibility: "visible",
+                animationDuration: "1.4s",animationName: "slideInUp",width: "98%", fontSize:"10px",
+                justifyContent: "space-between",flexDirection: "row", flexWrap:"wrap"}}>
+                <button>HTML5</button>
+                <button>CSS3</button>
+                <button>Javascript</button>
+            </div>
+          </Card.Text></Card.Body>
+        </Card></a>     
+     </Col>
+
+     <Col sm={12} className="d-lg-none d-sm-none d-md-none d-xl-none justify-content-around mx-auto mt-3 d-flex" >
+      <a href={Ravenous} target="blank"><Card  className="work-card mt-5 text-center">
+              <Card.Img variant="top" src={Image4} />
+        <Card.Body>
+          <Card.Title className="text-light"> Learning </Card.Title>
+          <Card.Text style={{color: "red"}}>
+          <div style={{visibility: "visible",
+                animationDuration: "1.4s",animationName: "slideInUp",width: "98%", fontSize:"10px",
+                justifyContent: "space-between",flexDirection: "row", flexWrap:"wrap"}}>
+                <button>Vue3</button>
+                <button>Vuex</button>
+                <button>Javascript</button>
+                
             </div>
           </Card.Text></Card.Body>
         </Card></a>     

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.5c4a2f88.css",
-    "main.js": "/myportfolio/static/js/main.e1ed7e56.js",
+    "main.css": "/myportfolio/static/css/main.0bbfcc6c.css",
+    "main.js": "/myportfolio/static/js/main.ac8912c1.js",
     "static/media/SozentechPdf.png": "/myportfolio/static/media/SozentechPdf.1b73ab48695e3f741cc8.png",
     "static/media/vue.png": "/myportfolio/static/media/vue.133db86f9548969aa12d.png",
     "static/media/paytmHP.png": "/myportfolio/static/media/paytmHP.31f54f764676693d0ebc.png",
@@ -10,11 +10,11 @@
     "static/media/phone-call-icon-16.png": "/myportfolio/static/media/phone-call-icon-16.94f2cbcddc9c8d48c533.png",
     "static/media/colorConverterApp.png": "/myportfolio/static/media/colorConverterApp.249a01615c6886776bcb.png",
     "index.html": "/myportfolio/index.html",
-    "main.5c4a2f88.css.map": "/myportfolio/static/css/main.5c4a2f88.css.map",
-    "main.e1ed7e56.js.map": "/myportfolio/static/js/main.e1ed7e56.js.map"
+    "main.0bbfcc6c.css.map": "/myportfolio/static/css/main.0bbfcc6c.css.map",
+    "main.ac8912c1.js.map": "/myportfolio/static/js/main.ac8912c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c4a2f88.css",
-    "static/js/main.e1ed7e56.js"
+    "static/css/main.0bbfcc6c.css",
+    "static/js/main.ac8912c1.js"
   ]
 }

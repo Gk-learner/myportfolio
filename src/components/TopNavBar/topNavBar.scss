@@ -1,6 +1,6 @@
 
 body{
-  background-color: rgb(35,34,82) !important;}
+  background-color: rgb(14,14,33) !important;}
  #desktopNav{
     min-width: 97%;
     // min-height: 1rem;
@@ -13,7 +13,7 @@ body{
   box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
   0px 2px 2px rgba(0,255,255,0.5), 
   0px 4px 4px rgba(0,255,255,0.5),
-  0px 8px 6px rgba(0,255,255,0.5);
+  0px 2px 3px rgba(0,255,255,0.5);
   cursor: pointer;
   border-bottom-left-radius: 70px 30px; 
   border-bottom-right-radius: 70px 30px; 
@@ -39,24 +39,8 @@ body{
   .navLink:hover{
     color:white;
   }
-  //  .navbar-nav{
-  //   float: right;
-  //  }
-//    .nav>li>a {
-//     padding: 17px 36px;
-// }
-// .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-//     height: 60px;
-// }
-// .btn-group-lg>.btn, .btn-lg {
-//     border-radius: 33px;
-// }
 
-/*Navigation*/
 
-#mobMenu {
-  z-index: 2;
-}
 
 #mobMenu-bar {
   width: 25px;  
@@ -121,8 +105,8 @@ body{
 }
 
 .mobMenu-bg, #mobMenu {
-
   position: absolute;
+  
 }
 
 .mobMenu-bg {
@@ -167,7 +151,6 @@ body{
   }
  
   .navLink{
-    // margin: 1vw 2vw;
     color: rgb(199, 214, 235);
     text-decoration: none;
   }
@@ -178,10 +161,8 @@ body{
   }
   
 }
-// @media screen and (max-width:576px){
-//   .navLink{
-//     width: 91%;
-//     margin: 2px auto;
-//     background-color:rgb(88, 114, 114);
-//   }
-// }
+@media screen and (max-width:576px){
+  #mobMenu {
+    z-index: 2;
+  }
+}

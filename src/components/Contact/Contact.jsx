@@ -57,17 +57,17 @@ const Contact = () => {
             </Col>
             <Col sm={12} lg={6} xl={5} className="mt-5">
              <Card className="py-3  d-lg-block d-md-block d-xl-block justify-content-evenly footer">
-                 <span className="glow-on-hover ">
+                 <span className="">
                     <a className="mt-4 mx-auto" href="https://linkedin.com/in/gagandeep-kour">
-                    <img src={lkdn} style={{height: "35px"}}/>
+                    <img src={lkdn} style={{height: "35px"}} alt="linkedinImg"/>
                     <span> https://www.linkedin.com/in/gagandeep-kour/</span>
                     </a>
                     </span>
                    
                <span>
                  <a className=" mt-4 d-flex mx-auto" href="tel:587-969-4981"> 
-                <img  src={email} style={{height: "42px"}}/>
-                <span  className="glow-on-hover">587-969-4981</span> </a>
+                <img  src={email} style={{height: "42px"}} alt="emailImg"/>
+                <span className="">587-969-4981</span> </a>
                 </span>
                
         </Card>

@@ -4,6 +4,7 @@ import Collapse from '@material-ui/core/Collapse';
 import Card from 'react-bootstrap/Card';
 import { Col, Container, Row } from "react-bootstrap";
 import { Element } from 'react-scroll';
+import { motion } from "framer-motion";
 import {
   faAngular,
   faCss3,
@@ -38,47 +39,58 @@ const About = () => {
     <Container ref={ref}  fluid className={`animContainer ${inView ? 'visible' : ''}`} id="about">
       <Row>
       <h1 className="text-center text-light">A little bit about me</h1>
-
-        <Col sm={6} xl={6} className="mobColLeft mx-auto col-6 mt-3" >
+      <motion.div
+      className="d-flex"
+      whileInView={{ scale: [1.0, 1.1, 1.0] }}
+      animate={{ rotate: [12, 0, -12, 0, 12, 0, -12, 0, 12, 0, -12, 0] }}
+      // transition={{
+      //   rotate: { duration: 1.2, repeatDelay: 3 },
+      //   scale: { duration: 1, delay: .2 }
+      // }}
+      initial={{ rotate: 0 }}
+    >
+      <Col sm={6} xl={6} className="mobColLeft mt-3" >
        
-        <Card className="mt-5 text-center p-1 aboutCard">
-                <Card.Body>
-                <Card.Text>
-                I am a Frontend developer specialises in developing complex web apps. Things I am excited about lately is learning new technologies.
-                    I am a recent graduate from Making Changes Association.A learner, doer embracing new technologies and finding inspiration in the tech wold. My skills set includes
-               <mark>Javascript,HTML5,CSS3,Git, libraries like React, bootstrap and frameworks like Vue</mark> . With a background in web development spanning over 4 years, I've had the privilege
-                of working on a diverse range of projects, from e-commerce websites to interactive and eye catching web applications.
-               
-                </Card.Text>
-                </Card.Body>
-            </Card>
-     
-          
-        </Col>
-        <Col sm={6} xl={6} className="mobColRight col-6">
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faVuejs} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
-          </div>
-      </div>
-        </Col>
+       <Card className="mt-5 text-center p-1 aboutCard">
+               <Card.Body>
+               <Card.Text>
+               I am a Frontend developer specialises in developing complex web apps. Things I am excited about lately is learning new technologies.
+                   I am a recent graduate from Making Changes Association.A learner, doer embracing new technologies and finding inspiration in the tech wold. My skills set includes
+              <mark>Javascript,HTML5,CSS3,Git, libraries like React, bootstrap and frameworks like Vue</mark> . With a background in web development spanning over 4 years, I've had the privilege
+               of working on a diverse range of projects, from e-commerce websites to interactive and eye catching web applications.
+              
+               </Card.Text>
+               </Card.Body>
+           </Card>
+    
+         
+       </Col>
+       <Col sm={6} xl={6} className="mobColRight">
+       <div className="stage-cube-cont">
+         <div className="cubespinner">
+           <div className="face1">
+             <FontAwesomeIcon icon={faVuejs} color="#DD0031" />
+           </div>
+           <div className="face2">
+             <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+           </div>
+           <div className="face3">
+             <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+           </div>
+           <div className="face4">
+             <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+           </div>
+           <div className="face5">
+             <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+           </div>
+           <div className="face6">
+             <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+           </div>
+         </div>
+     </div>
+       </Col>
+    </motion.div>
+        
       </Row>
     
     </Container>

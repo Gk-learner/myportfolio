@@ -178,6 +178,8 @@ useEffect(()=>{
                 <button>HTML5</button>
                 <button>CSS3</button>
                 <button>Javascript</button>
+                <button>Tailwind CSS</button>
+
             </div>
           </Card.Text></Card.Body>
         </Card></a>     
@@ -195,6 +197,8 @@ useEffect(()=>{
                 <button>Vue3</button>
                 <button>Vuex</button>
                 <button>Javascript</button>
+                <button>Tailwind CSS</button>
+
                 
             </div>
           </Card.Text></Card.Body>

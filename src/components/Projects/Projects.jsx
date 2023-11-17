@@ -38,8 +38,9 @@ useEffect(()=>{
       
         <Col xl={12}  className="d-xs-none mobPro justify-content-around mx-auto mt-3" >
         
-             <Card className="work-card mt-5 text-center w-30">
-             <a href={project_1_link} target="blank">
+             <Card className="hover-text work-card mt-5 text-center w-30">
+           
+  <span class="tooltip-text" id="top">Please open <a href="https:firstgames.in">https:firstgames.in</a> to see</span>
 
             <Card.Img variant="top" src={Image1} />
             <Card.Body>
@@ -58,7 +59,6 @@ useEffect(()=>{
             </div>
           </Card.Text>
           </Card.Body>
-          </a>
              </Card>
 
               <Card  className="work-card mt-5 text-center w-30">
@@ -116,6 +116,8 @@ useEffect(()=>{
                 <button>Vuex</button>
                 <button>Vue3</button>
                 <button>Javascript</button>
+                <button>Tailwind CSS</button>
+
             </div>
           </Card.Text></Card.Body></a>
              </Card>
@@ -178,7 +180,6 @@ useEffect(()=>{
                 <button>HTML5</button>
                 <button>CSS3</button>
                 <button>Javascript</button>
-                <button>Tailwind CSS</button>
 
             </div>
           </Card.Text></Card.Body>

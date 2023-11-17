@@ -7,7 +7,28 @@
   display: flex;
   flex-wrap: wrap;
 }
+.hover-text {
+  position: relative;
+  display: inline-block;
+  margin: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+}
+.tooltip-text{
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 25vw;
+  color: white;
+  font-size: 16px;
+  background-color: #192733;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
 
+}
 .work-card{
     border-radius: 4px;
     background: rgb(49,44,98, 0.5) !important;

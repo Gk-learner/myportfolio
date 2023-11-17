@@ -1,29 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./projects.scss"
 import Image1 from "./assets/paytmHP.png"
 import Image2 from "./assets/SozentechPdf.png"
 import Image3 from './assets/colorConverterApp.png'
 import Image4 from './assets/vue.png'
-import { Image } from "react-bootstrap";
 
-// import Collapse from '@materia-ui/core/Collapse';
 import Card from 'react-bootstrap/Card';
 import { Col, Container, Row } from "react-bootstrap";
 
 
 const Projects = (props) => {
-const { title, description, image, link } = props;
-const [isOpened, setIsOpened] = useState(false)
-const project_1_link= "https:firstgames.in"
 const ColorConverter = 'https://gk-learner.github.io/color-converter/'
 const SozentechPdf = "https://firebasestorage.googleapis.com/v0/b/app-cost-estimator-2f21f.appspot.com/o/pdfs%2FEvJvSFBSRiepriJ.pdf?alt=media&token=959b81e2-615a-4af6-a0f0-d07afac5bd06"
 const Ravenous = "https://gk-learner.github.io/Vue3Ravenous/"
-useEffect(()=>{
-  setTimeout(()=>{
-    setIsOpened(true)
-  },500)
-  
-},[])
+
   return (
     <>
     <Container fluid className="py-5" id="projects">

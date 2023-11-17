@@ -9,7 +9,7 @@ import Card from 'react-bootstrap/Card';
 import { Col, Container, Row } from "react-bootstrap";
 
 
-const Projects = (props) => {
+const Projects = () => {
 const ColorConverter = 'https://gk-learner.github.io/color-converter/'
 const SozentechPdf = "https://firebasestorage.googleapis.com/v0/b/app-cost-estimator-2f21f.appspot.com/o/pdfs%2FEvJvSFBSRiepriJ.pdf?alt=media&token=959b81e2-615a-4af6-a0f0-d07afac5bd06"
 const Ravenous = "https://gk-learner.github.io/Vue3Ravenous/"

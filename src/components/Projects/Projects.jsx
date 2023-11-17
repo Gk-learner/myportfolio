@@ -40,7 +40,7 @@ useEffect(()=>{
         
              <Card className="hover-text work-card mt-5 text-center w-30">
            
-  <span class="tooltip-text" id="top">Please open <a href="https:firstgames.in">https:firstgames.in</a> to see</span>
+        <span class="tooltip-text" id="top">Please open <a href="https:firstgames.in">https:firstgames.in</a> to see</span>
 
             <Card.Img variant="top" src={Image1} />
             <Card.Body>
@@ -125,7 +125,10 @@ useEffect(()=>{
         </Col>
         <Col sm={12} className="d-lg-none d-sm-none d-md-none d-xl-none justify-content-around mx-auto mt-3 d-flex" >
        
-          <a href={project_1_link} target="blank"> <Card className="work-card mt-5 text-center">
+          {/* <a href={project_1_link} target="blank"> */}
+             <Card className="work-card mt-5 text-center">
+             <span class="tooltip-text" id="top">Please open <a href="https:firstgames.in">https:firstgames.in</a> to see</span>
+
         <Card.Img variant="top" src={Image1} />
         <Card.Body>
           <Card.Title className="text-light"> Learning </Card.Title>
@@ -141,7 +144,7 @@ useEffect(()=>{
                 <button>jQuery</button>
             </div>
           </Card.Text></Card.Body>
-        </Card></a>
+        </Card>
       </Col>
       <Col sm={12} className="d-lg-none d-sm-none d-md-none d-xl-none justify-content-around mx-auto mt-3 d-flex" >
       <a href={SozentechPdf} target="blank"><Card  className="work-card mt-5 text-center">

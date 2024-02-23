@@ -12,7 +12,7 @@ const Home = () => {
     const [letterClass, setLetterClass ] =  useState('text-animate')
     const nameArray = "agandeep".split("")
     const jobArray = "Frontend Developer".split("")
-    const resumeURL = 'https://purple-cristi-31.tiiny.site';
+    const resumeURL = 'https://jade-addie-31.tiiny.site/';
   const handleDownload = () => {
     
     window.open(resumeURL);

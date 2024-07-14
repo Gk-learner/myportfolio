@@ -12,7 +12,7 @@ const Home = () => {
     const [letterClass, setLetterClass ] =  useState('text-animate')
     const nameArray = "agandeep".split("")
     const jobArray = "Frontend Developer".split("")
-    const resumeURL = 'https://jade-addie-31.tiiny.site/';
+    const resumeURL = 'https://github.com/Gk-learner';
   const handleDownload = () => {
     
     window.open(resumeURL);
@@ -65,7 +65,7 @@ const Home = () => {
                 </Card.Body>
             </Card>
             <Button timeout={1200} className="subscribe-button mt-5 text-center" 
-                onClick={handleDownload}>View My Resume</Button>
+                onClick={handleDownload}>View My Github Profile</Button>
             </Col>
             <Col xl={4} md={2} sm={2} className="d-none d-sm-none d-lg-block d-md-block d-xl-block" style={{borderRight: "1px solid #fff",borderBottom: "1px solid #fff"}}></Col>
         </Row>

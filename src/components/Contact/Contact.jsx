@@ -79,12 +79,12 @@ const Contact = () => {
                                     <span className="">587-969-4981</span>{" "}
                                 </a>
                             </span>
-                            <span>
+                            {/* <span>
                                 <a className="mt-4 d-flex mx-auto" href="tel:587-969-4981">
                                     <img src={github} style={{height: "42px", marginLeft: "10px"}} alt="emailImg" />
                                     <span className="">Github Link</span>{" "}
                                 </a>
-                            </span>
+                            </span> */}
                         </Card>
                     </Col>
                 </Row>

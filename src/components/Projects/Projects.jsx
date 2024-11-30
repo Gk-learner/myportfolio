@@ -15,7 +15,7 @@ const Projects = () => {
     const SozentechPdf =
         "https://firebasestorage.googleapis.com/v0/b/app-cost-estimator-2f21f.appspot.com/o/pdfs%2FEvJvSFBSRiepriJ.pdf?alt=media&token=959b81e2-615a-4af6-a0f0-d07afac5bd06";
     const Ravenous = "https://gk-learner.github.io/Vue3Ravenous/";
-    const Stepper = "https://gk-learner.github.io/react-stepper/";
+    const Stepper = "https://gk-learner.github.io/rract-stepper/";
     const Pagination = "https://gk-learner.github.io/react-pagination/";
 
     return (

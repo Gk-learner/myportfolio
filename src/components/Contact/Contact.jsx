@@ -68,15 +68,23 @@ const Contact = () => {
                         <Card className="py-3 d-lg-block d-md-block d-xl-block justify-content-evenly footer">
                             <span className="">
                                 <a className="mt-4 mx-auto" href="https://linkedin.com/in/gagandeep-kour">
-                                    <img src={lkdn} style={{height: "35px", marginLeft: "10px"}} alt="linkedinImg" />
+                                    <img
+                                        src={lkdn}
+                                        style={{height: "35px", marginLeft: "10px", maginRight: "25px"}}
+                                        alt="linkedinImg"
+                                    />
                                     <span> https://www.linkedin.com/in/gagandeep-kour/</span>
                                 </a>
                             </span>
 
                             <span>
                                 <a className=" mt-4 d-flex mx-auto" href="tel:587-969-4981">
-                                    <img src={email} style={{height: "42px", marginLeft: "10px"}} alt="emailImg" />
-                                    <span className="">587-969-4981</span>{" "}
+                                    <img
+                                        src={email}
+                                        style={{height: "42px", marginLeft: "10px", maginRight: "15px"}}
+                                        alt="emailImg"
+                                    />
+                                    <span className="ml-8"> 587-969-4981</span>{" "}
                                 </a>
                             </span>
                             {/* <span>

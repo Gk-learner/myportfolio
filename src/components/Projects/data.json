@@ -1,14 +1,14 @@
 [
     {
-      "title": "Project 1",
-      "description": "Description of Project 1",
-      "image": "./assets/paytmHP.png",
-      "link": "www.firstgames.in"
+        "title": "Project 1",
+        "description": "Description of Project 1",
+        "image": "/assets1/paytmHP.png",
+        "link": "www.firstgames.in"
     },
     {
-      "title": "Project 2",
-      "description": "Description of Project 2",
-      "image": "project2.jpg",
-      "link": "https://example.com/project2"
+        "title": "Project 2",
+        "description": "Description of Project 2",
+        "image": "/assets1/SozentechPdf.png",
+        "link": "https://firebasestorage.googleapis.com/v0/b/app-cost-estimator-2f21f.appspot.com/o/pdfs%2FEvJvSFBSRiepriJ.pdf?alt=media&token=959b81e2-615a-4af6-a0f0-d07afac5bd06"
     }
-  ]
+]

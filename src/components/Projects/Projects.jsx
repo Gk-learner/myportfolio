@@ -6,6 +6,7 @@ import Image3 from "./assets/colorConverterApp.png";
 import Image4 from "./assets/vue.png";
 import Image5 from "./assets/Stepper.png";
 import Image6 from "./assets/Pagination.png";
+import Image7 from "./assets/speech.png";
 
 import Card from "react-bootstrap/Card";
 import {Col, Container, Row} from "react-bootstrap";
@@ -17,6 +18,7 @@ const Projects = () => {
     const Ravenous = "https://gk-learner.github.io/Vue3Ravenous/";
     const Stepper = "https://gk-learner.github.io/react-stepper/";
     const Pagination = "https://gk-learner.github.io/react-pagination/";
+    const SpeechRecognition = "https://gk-learner.github.io/speech-recognition-app/";
 
     return (
         <>
@@ -203,6 +205,34 @@ const Projects = () => {
                                                 flexWrap: "wrap",
                                             }}
                                         >
+                                            <button>React</button>
+                                            <button>Javascript</button>
+                                        </div>
+                                    </Card.Text>
+                                </Card.Body>
+                            </a>
+                        </Card>
+
+                        <Card className="work-card mt-5 text-center w-30">
+                            <a href={SpeechRecognition} target="blank">
+                                <Card.Img variant="top" src={Image7} />
+                                <Card.Body>
+                                    <Card.Title className="text-light"> Learning </Card.Title>
+                                    <Card.Text style={{color: "red"}}>
+                                        <div
+                                            style={{
+                                                visibility: "visible",
+                                                animationDuration: "1.4s",
+                                                animationName: "slideInUp",
+                                                width: "100%",
+                                                display: "flex",
+                                                fontSize: "10px",
+                                                justifyContent: "space-between",
+                                                flexDirection: "row",
+                                                flexWrap: "wrap",
+                                            }}
+                                        >
+                                            <button>SCSS</button>
                                             <button>React</button>
                                             <button>Javascript</button>
                                         </div>
@@ -406,6 +436,38 @@ const Projects = () => {
                                                 flexWrap: "wrap",
                                             }}
                                         >
+                                            <button>React</button>
+                                            <button>Javascript</button>
+                                        </div>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </a>
+                    </Col>
+                    <Col
+                        sm={12}
+                        className="d-lg-none d-sm-none d-md-none d-xl-none justify-content-around mx-auto mt-3 d-flex"
+                    >
+                        <a href={SpeechRecognition} target="blank">
+                            <Card className="work-card mt-5 text-center">
+                                <Card.Img variant="top" src={Image7} />
+                                <Card.Body>
+                                    <Card.Title className="text-light"> Learning </Card.Title>
+                                    <Card.Text style={{color: "red"}}>
+                                        <div
+                                            style={{
+                                                visibility: "visible",
+                                                animationDuration: "1.4s",
+                                                animationName: "slideInUp",
+                                                width: "98%",
+                                                fontSize: "10px",
+                                                justifyContent: "space-between",
+                                                flexDirection: "row",
+                                                flexWrap: "wrap",
+                                            }}
+                                        >
+                                            <button>SCSS</button>
+
                                             <button>React</button>
                                             <button>Javascript</button>
                                         </div>

@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.6b3aaf7d.css",
-    "main.js": "/myportfolio/static/js/main.955f7fa7.js",
+    "main.js": "/myportfolio/static/js/main.4f87889c.js",
     "static/media/SozentechPdf.png": "/myportfolio/static/media/SozentechPdf.1b73ab48695e3f741cc8.png",
     "static/media/vue.png": "/myportfolio/static/media/vue.133db86f9548969aa12d.png",
     "static/media/paytmHP.png": "/myportfolio/static/media/paytmHP.31f54f764676693d0ebc.png",
     "static/media/Pagination.png": "/myportfolio/static/media/Pagination.e5f5b477e265868cf685.png",
+    "static/media/lkdnImage.jpg": "/myportfolio/static/media/lkdnImage.765ed032f9bbcba7435f.jpg",
     "static/media/Stepper.png": "/myportfolio/static/media/Stepper.319adccc58f0a36d4182.png",
-    "static/media/my-image2.jpg": "/myportfolio/static/media/my-image2.d67c8a3eae1422bdfe00.jpg",
     "static/media/LogoLinkedIn.jpg": "/myportfolio/static/media/LogoLinkedIn.13308debdead809b71c9.jpg",
     "static/media/phone-call-icon-16.png": "/myportfolio/static/media/phone-call-icon-16.94f2cbcddc9c8d48c533.png",
     "static/media/speech.png": "/myportfolio/static/media/speech.d3b3c1a6b93566894834.png",
     "static/media/colorConverterApp.png": "/myportfolio/static/media/colorConverterApp.249a01615c6886776bcb.png",
     "index.html": "/myportfolio/index.html",
     "main.6b3aaf7d.css.map": "/myportfolio/static/css/main.6b3aaf7d.css.map",
-    "main.955f7fa7.js.map": "/myportfolio/static/js/main.955f7fa7.js.map"
+    "main.4f87889c.js.map": "/myportfolio/static/js/main.4f87889c.js.map"
   },
   "entrypoints": [
     "static/css/main.6b3aaf7d.css",
-    "static/js/main.955f7fa7.js"
+    "static/js/main.4f87889c.js"
   ]
 }

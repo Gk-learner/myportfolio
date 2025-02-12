@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import image from "./assets/my-image2.jpg"
+import image from "./assets/lkdnImage.jpg"
 import "./home.scss"
 import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';

@@ -50,7 +50,7 @@ const About = () => {
                                                     Javascript,HTML5,CSS3,Git, libraries like React, bootstrap and
                                                     frameworks like Vue
                                                 </mark>{" "}
-                                                . With a background in web development spanning over 4 years, I've had
+                                                . With a background in web development spanning over 5 years, I've had
                                                 the privilege of working on a diverse range of projects, from e-commerce
                                                 websites to interactive and eye catching web applications.
                                             </Card.Text>

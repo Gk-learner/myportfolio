@@ -83,15 +83,11 @@ h1{
     
 }
 
-  // .card1 a span{
-  //   animation: rotate 1s linear both;
-  //   animation-delay: 0.1s;
-  // }
-
   @media (min-width: 576px) and (max-width:768px){
 
     .img-responsive{
-      width: 100%;
+      width: 80%;
+      border-radius: 50%;
     }
     .h1{
       font-size:36px!important;
@@ -100,7 +96,8 @@ h1{
   }
   @media screen and (min-width:768px){
     .img-responsive{
-      width: 89%;
+      width: 59%;
+      border-radius: 50%;
     }
     h1{
       font-size:36px!important;
@@ -114,6 +111,7 @@ h1{
    }
    
    .img-responsive{
+    border-radius: 50%;
     width: 55%;
     margin-left:24%;
     margin-top:-50px;

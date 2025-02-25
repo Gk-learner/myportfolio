@@ -27,8 +27,20 @@ const TopNavbar = () => {
     backgroundColor: scrolling ? '#2b1254' : 'transparent', // Change '#f00' to the desired background color
     transition: 'background-color 0.3s ease', // Optional: Add a smooth transition
   };
+const toggleMenu = () =>{
+  setShowMenu(!showMenu)
+  var menuBar = document.getElementById("mobMenu-bar");
+  menuBar.classList.toggle("change");
 
- 
+
+}
+const resetToggle = () =>{
+  setShowMenu(!showMenu)
+  var menuBar = document.getElementById("mobMenu-bar");
+  menuBar.classList.remove("change");
+
+
+}
   return (
     <>
     <Container fluid>
@@ -55,7 +67,7 @@ const TopNavbar = () => {
       </Row>
       <Row id="mobMenu">
         <Col>
-        <div onClick={()=>setShowMenu(!showMenu)} className="d-flex d-sm-none d-lg-none d-xl-none d-md-none position-absolute">
+        <div onClick={()=>toggleMenu()} className="d-flex d-sm-none d-lg-none d-xl-none d-md-none position-absolute">
           <span className="navbar-brand d-xl-none d-md-none position-fixed d-lg-none text-light" >GK</span>
 
         <div id="mobMenu-bar">
@@ -63,14 +75,15 @@ const TopNavbar = () => {
           <div id="bar2" class="bar"></div>
           <div id="bar3" class="bar"></div>
         </div>
-        <nav class="mobNav" id="mobNav" style={{display: showMenu ? 'grid' : 'none'}}  onClick={()=>{setShowMenu(!showMenu)}}>
-            <Link to="home" className="navLink" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{setShowMenu(false)}}>Home</Link>
-            
-            <Link to ="about" className="navLink" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={()=>{setShowMenu(false)}}>About</Link>
+        <nav class="mobNav" id="mobNav" style={{display: showMenu ? 'grid' : 'none'}} >
           
-            <Link to="projects" className="navLink" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={()=>{setShowMenu(false)}}>Projects</Link>
+            <Link to="home" className="navLink" activeClass="active" spy={true} smooth={true} offset={-100} duration={1400} onClick={()=>{resetToggle()}}>Home</Link>
+            
+            <Link to ="about" className="navLink" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={()=>{resetToggle()}}>About</Link>
+          
+            <Link to="projects" className="navLink" activeClass="active" spy={true} smooth={true} offset={-50} duration={500} onClick={()=>{resetToggle()}}>Projects</Link>
         
-            <Link to="contact" className="navLink" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{setShowMenu(false)}}>Contact</Link>
+            <Link to="contact" className="navLink" activeClass="active" spy={true} smooth={true} offset={-100} duration={500} onClick={()=>{resetToggle()}}>Contact</Link>
           
         </nav> 
 </div>

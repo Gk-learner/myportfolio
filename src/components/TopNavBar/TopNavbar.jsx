@@ -44,12 +44,7 @@ const TopNavbar = () => {
         <Link to="projects" className="navLink" activeClass="active" smooth={true} offset={-50} duration={500}>Projects</Link>
      
         <Link to="contact" className="navLink" activeClass="active" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link>
-        {/* <Link to="/contact" className="navLink" activeClass="active" spy={true} smooth={true} offset={-100} duration={500}> */}
-        {/* <Button className="subscribe-button" onClick={()=>{
-          document.getElementById('contact').scrollIntoView({behavior: 'smooth'})
-        }}>Let's Collaborate</Button> */}
-
-        {/* </Link> */}
+   
         </nav>
        </Col>
       </Row>

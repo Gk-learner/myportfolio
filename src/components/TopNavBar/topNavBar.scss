@@ -70,19 +70,20 @@ body{
 
 .mobNav {
   transition: 0.3s ease;
-  background-color: rgb(255,255,255,0.5);
-  min-width: 10rem;
-  right: 13px;
-  border-radius: 10px;;
+  background-color: rgba(14,14,33, 0.9);
+  min-width: 90%;
+  // right: 13px;
+  border-radius: 2px;;
   position: fixed;
-  top:47px;
+  top:43px;
 }
 
 .mobNav .navLink{
   padding: 10px 12px;
   display: block;
-  background-color:  rgb(88, 114, 114);
+  // background-color:  rgb(88, 114, 114);
   // top:29;
+  border-bottom: 1px solid #fff;
   width: 90%;
   margin: 6px auto 3px;
 }
@@ -92,6 +93,7 @@ body{
 .mobNav li {
   list-style: none;
   padding: 12px 0;
+ 
 }
 
 .mobNav li a {
@@ -130,13 +132,11 @@ body{
 .change #bar1 {
   transform: translateY(4px) rotateZ(-45deg);
 }
-
 .change #bar2 {
   opacity: 0;
 }
-
 .change #bar3 {
-  transform: translateY(-6px) rotateZ(45deg);
+  transform: translateY(-2px) rotateZ(45deg);
 }
 
 .change-bg {
@@ -144,6 +144,7 @@ body{
   height: 460px;
   transform: translate(-60%,-30%);
 }
+
 
 @media screen and (max-width:756px ){
   #desktopNav{

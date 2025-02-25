@@ -49,7 +49,7 @@ const Projects = () => {
                                             width: "100%",
                                             display: "flex",
                                             fontSize: "10px",
-                                            justifyContent: "space-between",
+                                            // justifyContent: "space-between",
                                             flexDirection: "row",
                                             flexWrap: "wrap",
                                         }}

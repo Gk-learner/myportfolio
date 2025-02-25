@@ -178,7 +178,15 @@
       display: none
     }
     #about{
-      min-height: calc(93vh - 1rem);
+      min-height: calc(61vh - 1rem);
+    }
+    .stage-cube-cont {
+      width: 40%;
+      height: 100%;
+      // top: 0;
+      padding-top: 18%;
+      margin: 0 auto;
+      right: 0;
     }
   }
   

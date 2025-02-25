@@ -28,14 +28,14 @@ const Home = () => {
     },[])
  
   return (
-    <>
+    
      <Container className="container pt-5" fluid id="home">
      <div id="stars"></div>
      <div id="stars2"></div>
      <div id="stars3"></div>              
         <Row md={12} sm={12} className=" d-flex mt-5">
             <Col sm={4} md={4} xl={4} lg={4} className="mobImgDiv mt-5">
-                <Image className="img-responsive position-relative" src={image} alt="Hero-img" rounded 
+                <Image className="img-responsive position-relative" src={image} alt="Hero-img" rounded-3xl 
              style={{ height: "auto",
              }} />
              
@@ -72,97 +72,6 @@ const Home = () => {
         
     </Container>
        
-    
-    {/* <About/>  */}
-    </>
-   
-//     <div className="container" >
-//   <div className="row  mb-5"> 
-//     <nav className="col-sm-5">
-//       <img src={image} 
-//          width="400px" height="400px" className="img-responsive"
-//           alt="my-image" />
-//     </nav>
-//     <div id="section" style={{fontSize:"24px"}} className="col-sm-7 col-5 text-left font-weight-bold mt-5">
-//         <h1 className="m-5">Gagandeep Kour</h1>  I am a Frontend developer specialises in developing complex web apps. Things I am excited about lately is learning new technologies.
-//         I am a recent graduate from Making Changes Association.
-//     {/* <button className="connect-button text-info">Let's  Connect </button> */}
-//     {/* <button className="download-button">Download Resume </button> */}
-//     <div className="button-wrapper d-flex" style={{marginTop:"100px"}}>
-//   <button className="subscribe-button" type="submit" onClick={handleDownload}>Download Resume</button>
-//   {/* <button className="connect-button text-info">Let's  Connect </button> */}
-// </div>
-
-      
-//       <div id="section2"> 
-       
-      
-//     </div>
-//   </div>
-   
-// </div>
-// <About/> 
-//     {/* //  <div class="p-5 container-fluid bg-light">
-//     //         <div class="row d-flex bg-info">
-//     //             <div class="col-3 img-fluid">
-//     //                 <img src={image}  */}
-//     {/* //                 width="500px" height="500px" alt="my-image" /> */}
-//                          </div>
-    //             <div class="intro col-3 p-4">
-    //               <h1>About Me</h1>
-    //                 Hello, My name is <h2>Gagandeep Kour</h2>
-    //                 <p>I am a full stack developer specialises in developing complex web apps. I have 4 years of experience working in developing 
-    //                     website and landing pages for a payment based company. Things I am excited about lately is learning new technologies.
-    //                 </p>
-    //             </div>
-    //         </div>
-            /* <div class="skills row text-center d-flex justify-content-center p-2">
-                <h2>Skills Overview</h2>
-                <p>I have more than 4 years of experience in Software Development.<br />My technical skills includes but not limited to                 
-                    <div class="col-4 px-0">
-                        <ul>
-                            <li>
-                                <h4>Frontend</h4>
-                                <ul>
-                                    <li>Html5/CSS3/SASS/LESS</li>
-                                    <li>Javascript</li>
-                                    <li>jQuery/Bootstrap</li>
-                                    <li>React/Redux/Vue</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="col-4 px-0">
-                        <ul>
-                            <h4>Backend</h4> 
-                            <ul>
-                                <li>Python</li>
-                                <li>MySql</li>
-                                <li>c#/.Net</li>
-                            </ul>
-                       </ul>
-                    </div>
-                </p>
-            </div>
-            <div class="row">
-                <div class="col text-center">
-                    <a href="https://twitter.com/">
-                        <img src=".\twitter-logo.png"
-                         height="20px" width="30px" alt="twitter" />
-                    </a>
-                    <a href="https://linkedin.com/in/gagandeep-kour" >
-                        <img src=".\linkedin.jpeg" 
-                        height="20px" width="40px" alt="linkedin" />
-                    </a>
-                    <a href="https://facebook.com" >
-                        <img src=".\facebook.jpeg" 
-                        height="20px" width="30px" alt="facebook" />
-                    </a>
-                </div>
-            </div> */
-    //     </div>
-//   );
   )
 }
 export default Home;

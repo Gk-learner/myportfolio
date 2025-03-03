@@ -56,10 +56,10 @@ const Contact = () => {
                                 </Form.Group>
                                 <Form.Group className="mx-5 my-3" controlId="exampleForm.ControlTextarea1" required>
                                     <Form.Label>Message</Form.Label>
-                                    <Form.Control name="message" as="textarea" rows={4} />
+                                    <Form.Control name="message" as="textarea" rows={4} placeholder="Since there is no mail server configured, kindly e-mail to me at gagandeep23ca@gmail.com"/>
                                 </Form.Group>
                                 <Button className="subscribe-button mx-5 w-30 mb-4" type="submit">
-                                    Submit
+                                    Stay in touch
                                 </Button>
                             </Form>
                         </ZoomIn>

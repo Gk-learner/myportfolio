@@ -39,7 +39,7 @@ const About = () => {
                                 initial={{rotate: 0}}
                             >
                                 <Col sm={6} xl={6} className="mobColLeft mt-3">
-                                    <Card className="mt-5 text-center p-1 aboutCard">
+                                    <Card className="mt-5 text-center p-4 aboutCard">
                                         <Card.Body>
                                             <Card.Text>
                                                 I am a Frontend developer specialises in developing complex web apps.

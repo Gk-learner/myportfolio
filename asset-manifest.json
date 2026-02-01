@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.ec097bd5.css",
-    "main.js": "/myportfolio/static/js/main.4b90b683.js",
+    "main.css": "/myportfolio/static/css/main.03b3c778.css",
+    "main.js": "/myportfolio/static/js/main.eb14a603.js",
     "static/media/SozentechPdf.png": "/myportfolio/static/media/SozentechPdf.1b73ab48695e3f741cc8.png",
     "static/media/vue.png": "/myportfolio/static/media/vue.133db86f9548969aa12d.png",
     "static/media/paytmHP.png": "/myportfolio/static/media/paytmHP.31f54f764676693d0ebc.png",
@@ -10,14 +10,15 @@
     "static/media/Stepper.png": "/myportfolio/static/media/Stepper.319adccc58f0a36d4182.png",
     "static/media/LogoLinkedIn.jpg": "/myportfolio/static/media/LogoLinkedIn.13308debdead809b71c9.jpg",
     "static/media/phone-call-icon-16.png": "/myportfolio/static/media/phone-call-icon-16.94f2cbcddc9c8d48c533.png",
+    "static/media/ExpenseTracker.png": "/myportfolio/static/media/ExpenseTracker.e948ea56ce09840d5fe4.png",
     "static/media/speech.png": "/myportfolio/static/media/speech.d3b3c1a6b93566894834.png",
     "static/media/colorConverterApp.png": "/myportfolio/static/media/colorConverterApp.249a01615c6886776bcb.png",
     "index.html": "/myportfolio/index.html",
-    "main.ec097bd5.css.map": "/myportfolio/static/css/main.ec097bd5.css.map",
-    "main.4b90b683.js.map": "/myportfolio/static/js/main.4b90b683.js.map"
+    "main.03b3c778.css.map": "/myportfolio/static/css/main.03b3c778.css.map",
+    "main.eb14a603.js.map": "/myportfolio/static/js/main.eb14a603.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec097bd5.css",
-    "static/js/main.4b90b683.js"
+    "static/css/main.03b3c778.css",
+    "static/js/main.eb14a603.js"
   ]
 }

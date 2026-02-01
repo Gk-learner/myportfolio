@@ -38,9 +38,8 @@
       cursor: pointer;
   // width: 40vw;
   min-height: 15vw;
-
   float: left;
-  width: 33.33%;
+  // width: 33.33%;
   padding: 10px;
 }
 
@@ -48,10 +47,15 @@
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
-
+ul li{
+  font-size: 0.8rem;
+  text-align: left;
+  list-style-type:disc;
+}
 .work-card h3{
   font-weight: 600;
 }
+
 .work-card-1{
   background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
       background-repeat: no-repeat;

@@ -56,11 +56,14 @@ const Contact = () => {
                                 </Form.Group>
                                 <Form.Group className="mx-5 my-3" controlId="exampleForm.ControlTextarea1" required>
                                     <Form.Label>Message</Form.Label>
-                                    <Form.Control name="message" as="textarea" rows={4} placeholder="Since there is no mail server configured, kindly e-mail to me at gagandeep23ca@gmail.com"/>
+                                    <Form.Control name="message" as="textarea" rows={4} height="60px" placeholder="Since there is no mail server configured, kindly e-mail to me at gagandeep23ca@gmail.com"/>
                                 </Form.Group>
-                                <Button className="subscribe-button mx-5 w-30 mb-4" type="submit">
+                                {/* <Button className="subscribe-button mx-5 w-44 mb-4" type="submit">
+                                    Send a message
+                                </Button> */}
+                                <div style={{backgroundColor: "rgb(23 60 76)", color: "#ffffff"}}className=" mx-5 w-10 mb-4 text-center" >
                                     Stay in touch
-                                </Button>
+                                </div>
                             </Form>
                         </ZoomIn>
                     </Col>
